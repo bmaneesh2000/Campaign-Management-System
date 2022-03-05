@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Single campaign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content=".">
+    <meta name="msapplication-tap-highlight" content="no">
+   
+<link href="{{ url_for('static', filename='main.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='simple-sidebar.css') }}" rel="stylesheet"></head>
+<body>
+      <!--nav bar code-->
+      <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>    <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="/home" class="nav-link">
+                                <i class="nav-link-icon fa fa-database"> </i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="/tran" class="nav-link">
+                                <i class="nav-link-icon fa fa-edit"></i>
+                                New campaign
+                            </a>
+                        </li>
+                    </ul>        </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        </div>
+            </div>
+        </div>       
+                     <!--side bar code starts-->                  
+                     <div class="ui-theme-settings">
+                        <button type="button" id="TooltipDemo" class="btn-open-options btn btn-warning">
+                            <i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
+                        </button>
+                       
+                    </div>        <div class="app-main">
+                            <div class="app-sidebar sidebar-shadow">
+                                <div class="app-header__logo">
+                                    <div class="logo-src"></div>
+                                    <div class="header__pane ml-auto">
+                                        <div>
+                                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                                <span class="hamburger-box">
+                                                    <span class="hamburger-inner"></span>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="app-header__mobile-menu">
+                                    <div>
+                                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                                            <span class="hamburger-box">
+                                                <span class="hamburger-inner"></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="app-header__menu">
+                                    <span>
+                                        <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                            <span class="btn-icon-wrapper">
+                                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                            </span>
+                                        </button>
+                                    </span>
+                                </div>    <div class="scrollbar-sidebar">
+                                    <div class="app-sidebar__inner">
+                                        <ul class="vertical-nav-menu">
+                                            <li class="app-sidebar__heading">Dashboard</li>
+                                            <li>
+                                                <a href="/home" class="mm-active">
+                                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                                     Dashboard
+                                                </a>
+                                            </li>
+                                           
+                                                <li class="app-sidebar__heading">Campaign</li>
+                                        <li>
+                                                <a href="#">
+                                                    <i class="metismenu-icon pe-7s-car"></i>
+                                                    campaign
+                                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/select">
+                                                            <i class="metismenu-icon">
+                                                            </i>select
+                                                        </a>
+                                                    </li>
+                                                   
+                                                  
+                                                </li>
+                                           
+                                            <li class="app-sidebar__heading">Forms</li>
+                                            <li>
+                                                <a href="/tfeed">
+                                                    <i class="metismenu-icon pe-7s-display2"></i>
+                                                    Feedback
+                                                </a>
+                                            </li>
+                                           
+                                            
+                                        </ul>
+                                        <li class="app-sidebar__heading">Logout</li>
+                                            <li>
+                                                <a href="/logout" class="mm-active">
+                                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                                     logout
+                                                </a>
+                                            </li>
+                                    </div>
+                                </div>
+                            </div>     
+                <!--main page code starts here-->
+      <div class="app-main__outer">
+                    <div class="app-main__inner">
+                        <div class="app-page-title">
+                            <div class="page-title-wrapper">
+                                <div class="page-title-heading">
+                                    <div class="page-title-icon">
+                                        <i class="pe-7s-menu icon-gradient bg-ripe-malin">
+                                        </i>
+                                    </div>
+                                    <div>Sending New campaign
+                                        <div class="page-title-subheading">Hello
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="text-center">
+                                    <label type="text" data-toggle="tooltip" data-placement="top" title="Sending of Campaign to single recipient">
+                                        <h3>Sending of Campaign</h3>
+                                    </label>
+                                </div> 
+                            
+                            <form class="contact-box" action="/smsgs" method="POST">
+                                <div class="right">
+                                          <input type="text" class="field" placeholder="Subject" name="s" value="{{x[0].subject}}">
+                                          <input type="text" class="field" placeholder="To" name="t">
+                                          <textarea placeholder="CONTENT" id="result" name="c">{{x[0].tcontent}}</textarea>
+                                         
+                                        </br>
+                                        
+                                          
+                                        
+                                          <button type="submit" class="subbtn" type="submit">Send</button>
+                                                      </div>
+                                          </form>
+                                          
+                                          
+                                                      </div>
+                                                       <center><button id="d" class="subbtn2">Spam check </button></center>
+                                                    
+                                                     
+                                    </div>
+                                 
+<script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+<script>
+document.getElementById("d").onclick= function(){
+    alert("0% spam");
+}
+</script>
+</body>
+</html>

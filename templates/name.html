@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>
+hi
+</title>
+</head>
+<body>
+<form action="/us" method="POST">
+Name:<input type="text" name="name"><br>
+Email:<input type="text" name="email"><br>
+Phoneno:<input type="text" name="phn"><br>
+<button type="submit">submit</button>
+</form>
+<form action = "/up" method = "POST" enctype = "multipart/form-data">
+  
+   <input type = "text" name = "t" value={{x[0].title}} /><br><br>
+    <input type = "subject" name = "s" value={{x[0].subject}} /><br><br>
+     <textarea name="c">{{x[0].content}}</textarea><br><br>
+     <textarea name="tc">{{x[0].tcontent}}</textarea><br><br>
+  <label for="myfile">Select a file:</label>
+  <input type = "file" name = "file" /><br><br>
+  
+  <input type="submit">
+</form>
+</body>
+</html>

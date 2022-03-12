@@ -4,12 +4,10 @@ Worked to create a Campaign Management System from scratch to create and manage 
 
 Used Flask to create a robust backend setting up the required routes and APIs and used SQLAlchemy to create and manage databases.
 
-Worked with the Frontend team to create an interactive Dashboard and to integrate the frontend with the backend.
+created an interactive Dashboard and to integrated the frontend with the backend.
 
 Tools used: Python, Flask, SQLAlchemy,HTML,CSS,Javascript,Bootstrap,chart.js, IBM Watson translator API, FB chat, SMTPlib, WebSpeechAPI.
 
 ## Click the below Image link for working in YT
 [![Watch the video](https://img.youtube.com/vi/HcBdheejA6U/maxresdefault.jpg)](https://www.youtube.com/watch?v=HcBdheejA6U)
 
-## Click the below Image link for more working in YT
-[![Watch the video](https://img.youtube.com/vi/UUQopcm8srg/hqdefault.jpg)](https://www.youtube.com/watch?v=UUQopcm8srg)
